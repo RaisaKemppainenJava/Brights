@@ -1,0 +1,65 @@
+
+body {
+    margin:50px;
+}
+
+body, input, button {
+    font-family:arial;
+    font-size:20px;
+}
+
+.question {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.question input{
+    width:150px;
+    padding:5px;
+}
+
+.likes {
+    user-select: none;
+    margin-bottom: 50px;
+    padding:10px;
+    border:solid 3px rgb(170, 170, 170);
+}
+
+.frame {
+    border: solid 3px green;
+}
+
+.searchText{
+    display: block;
+    width: 100%;
+    margin-bottom:10px;
+    padding-left:10px;
+    line-height: 40px;
+}
+
+.row {
+    display: flex;
+    column-gap: 10px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.row img{
+    display: block;
+    object-fit: contain;
+    height: 100px;
+    width: 100px;
+    border:solid 1px #aaa;
+}
+
+.row .description {
+    width:500px;
+    padding-left:30px;
+}
+
+.row * {
+    display:flex;
+    align-self: center;
+}

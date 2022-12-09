@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint</title>
+    <link href="checkpoint.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="gnomes/garden.jpg" type="image/png">
+</head>
+
+<body id="page">
+
+    <h2>Level 1</h2>
+
+    <div class="question"
+        <label for="foodInput">
+            What does the gnome like?
+            <input type="text" onkeyup="inputChanged()" class="food" id="foodInput">
+        </label>
+        
+    </div>
+
+    <div class="likes">
+        The gnome doesn't like anything
+    </div>
+
+    <h2>Level 2</h2>
+
+    <p>Show gnomes where the searchtext is part of the description</p>
+    <label for="searchText">Search gnomes</label>
+    <input class="searchText" id="searchText" onkeyup="searchGnomes()">
+
+    <div class="gnomeResult">
+
+        <!-- Hint, below is the HTML-code to render a Garden gnome -->
+
+        
+      <!--   <div class="row">
+            <img src="gnomes/garden.jpg">
+            <div class="description">Garden gnome</div>
+            <div class="price">100 kr</div>
+        </div>
+        -->
+
+    </div>
+
+    <script src="checkpoint.js"></script>
+
+</body>
+
+</html>
